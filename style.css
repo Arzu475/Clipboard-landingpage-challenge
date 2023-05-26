@@ -56,7 +56,6 @@ body {
 }
 
 .description > p {
-    width: 93%;
     color: var(--GrayishBlue);
 }
 
@@ -71,10 +70,11 @@ body {
 .btn button:first-child, 
 .btn button:last-child {
     display: block;
-    width: 11rem;
-    height: 2.7rem;
+    width: 13rem;
+    height: 3rem;
     border: none;
     border-radius: 2rem;
+    font-size: 1rem;
     color: white;
     cursor: pointer;
     box-shadow: 0 0.3rem 0.6rem rgba(0, 0, 0, 0.11);
@@ -109,9 +109,9 @@ body {
 }
 
 .description-two > p{
-    margin: 1.5rem auto 5rem;
+    margin: 1.5rem 20rem 5rem;
     line-height: 1.5;
-    width: 53%;
+   
     color: var(--GrayishBlue);
 }
 
@@ -172,7 +172,7 @@ body {
 }
 
 .description-three > p {
-    margin: 1.5rem auto 5rem;
+    margin: 1.5rem auto 8rem;
     line-height: 1.5;
     width: 53%;
     color: var(--GrayishBlue);
@@ -206,6 +206,7 @@ body {
     align-items: center;
     width: 100%;
     padding: 0 10%;
+    margin-bottom: 3rem;
 }
 
 .list-workflow figure {
@@ -286,7 +287,7 @@ body {
 .clipboard_bottom-content button:first-child, 
 .clipboard_bottom-content button:last-child {
     display: block;
-    width: 11rem;
+    width: 13rem;
     padding: 0.8rem;
     border-radius: 2rem;
     color: white;
