@@ -130,6 +130,7 @@ body {
 }
 
 .description-computer figure {
+    margin-top: 3.5rem;
     margin-left: -2rem;
 }
 
@@ -141,7 +142,7 @@ body {
 .description-right-computer {
     display: flex;
     flex-direction: column;
-    padding-top: 3rem;
+    margin-top: 5.5rem;
 }
 
 .description-right-computer span {
@@ -254,7 +255,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 8rem;
+    margin-bottom: 11rem;
     flex-wrap: wrap;
 }
 
