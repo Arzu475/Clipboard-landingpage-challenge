@@ -43,18 +43,19 @@ body {
     max-width: 100%;
 }
 
-.description-top > h1, 
-.description-top > p {
+.description > h1, 
+.description > p {
     text-align: center;
 }
 
-.description-top > h1 {
+.description > h1 {
     color: var(--Dark-Grayish-Blue);
     margin-top: 3rem;
     margin-bottom: 1rem;
+    font-size: 2.4rem
 }
 
-.description-top > p {
+.description > p {
     width: 93%;
     color: var(--GrayishBlue);
 }
@@ -95,20 +96,27 @@ body {
     min-height: 20rem;
 }
 
-.computer-content h2, 
+.description-two h2, 
+.handphone_tablet-content h2, 
+.clipboard_bottom-content h2, 
+.last-content h2 {
+    font-size: 1.9rem;
+}
+
+.description-two h2, 
 .last-content h2 {
     color: var(--Dark-Grayish-Blue);
 }
 
-.computer-content > p{
+.description-two > p{
     margin: 1.5rem auto 5rem;
     line-height: 1.5;
     width: 53%;
     color: var(--GrayishBlue);
 }
 
-.computer-content > h2, 
-.computer-content > p{
+.description-two > h2, 
+.description-two > p{
     text-align: center;
 }
 
@@ -149,21 +157,21 @@ body {
 }
 
 .third-content {
-    margin-top: 8rem;
+    margin-top: 13rem;
     width: 100%;
     min-height: 20rem;
 }
 
-.handphone_tablet-content > h2, 
-.handphone_tablet-content > p{
+.description-three > h2,
+.description-three > p{
     text-align: center;
 }
 
-.handphone_tablet-content > h2 {
+.description-three > h2 {
     color: var(--Dark-Grayish-Blue);
 }
 
-.handphone_tablet-content > p {
+.description-three > p {
     margin: 1.5rem auto 5rem;
     line-height: 1.5;
     width: 53%;
@@ -256,18 +264,18 @@ body {
     margin-bottom: 10rem;
 }
 
-.clipboard_bottom-content h2, 
-.clipboard_bottom-content p {
+.last-description h2, 
+.last-description p {
     text-align: center;
 }
 
-.clipboard_bottom-content > p {
+.last-description > p {
     margin: 1.5rem auto 0;
     color: var(--GrayishBlue);
     width: 50%;
 }
 
-.clipboard_bottom-content > h2 {
+.last-description > h2 {
     color: var(--Dark-Grayish-Blue);
 }
 
@@ -357,13 +365,13 @@ body {
         width: 100%;
     }
 
-    .description-top h1 {
-        font-size: 1.6rem;
-        width: 70%;
+    .description h1 {
+        font-size: 2rem;
+        width: 90%;
        margin-inline: auto;
     }
 
-    .description-top p {
+    .description p {
         font-size: 0.9rem;
         width: 17.5rem;
         margin-inline: auto;
@@ -373,12 +381,12 @@ body {
         width: 100%;
     }
 
-    .computer-content h2 {
+    .description-two h2 {
         width: 80%;
         margin-inline: auto;
     }
 
-    .computer-content p {
+    .description-two p {
         width: 22rem;
     }
     .btn {
@@ -419,13 +427,13 @@ body {
         font-size: 1.5rem;
     }
 
-    .handphone_tablet-content h2, 
+    .description-three h2, 
     .last-content h2 {
-        padding: 0 4rem;
+        padding: 0 1rem;
         margin: auto;
     }
 
-    .handphone_tablet-content p {
+    .description-three p {
         margin-inline: auto;
         width: 90%;
     }
@@ -454,7 +462,7 @@ body {
         max-width: 100%;
     }
 
-    .clipboard_bottom-content h2 {
+    .last-description h2 {
         padding: 0 2rem;
         margin-inline: auto;
     }
